@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSec Jobs LATAM - Empleos en Ciberseguridad</title>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-card: #1c2333;
+            --border: #30363d;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --accent-blue: #58a6ff;
+            --accent-green: #3fb950;
+            --accent-orange: #d29922;
+            --accent-purple: #bc8cff;
+            --accent-red: #f85149;
+            --whatsapp: #25d366;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 20px 30px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        header h1 span { color: var(--accent-blue); }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+        }
+
+        /* Badges */
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .badge--blue { background: #1f3a5f; color: var(--accent-blue); }
+        .badge--green { background: #1a3a2a; color: var(--accent-green); }
+        .badge--orange { background: #3a2a1a; color: var(--accent-orange); }
+        .badge--purple { background: #2a1a3a; color: var(--accent-purple); }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            padding: 20px 0;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 14px 10px 40px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus { border-color: var(--accent-blue); }
+
+        .search-box::before {
+            content: '🔍';
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1rem;
+        }
+
+        .filter-select {
+            padding: 10px 14px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            cursor: pointer;
+            outline: none;
+            min-width: 180px;
+        }
+
+        .filter-select:focus { border-color: var(--accent-blue); }
+
+        .sort-btn {
+            padding: 10px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .sort-btn:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+        .sort-btn.active { border-color: var(--accent-blue); color: var(--accent-blue); background: #1f3a5f; }
+
+        /* Stats */
+        .stats {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding-bottom: 16px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .stats span { display: flex; align-items: center; gap: 4px; }
+
+        /* Job Cards */
+        .jobs-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-bottom: 40px;
+        }
+
+        .job-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px;
+            transition: border-color 0.2s, transform 0.15s;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 12px;
+            align-items: start;
+        }
+
+        .job-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-1px);
+        }
+
+        .job-info { min-width: 0; }
+
+        .job-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .job-title a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        .job-title a:hover { text-decoration: underline; }
+
+        .job-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .job-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .job-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            background: #1f3a5f;
+            color: var(--accent-blue);
+        }
+
+        .tag--remote { background: #1a3a2a; color: var(--accent-green); }
+        .tag--hybrid { background: #3a2a1a; color: var(--accent-orange); }
+        .tag--onsite { background: #2a1a3a; color: var(--accent-purple); }
+
+        .job-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: flex-end;
+        }
+
+        .btn-apply {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 18px;
+            background: var(--accent-blue);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: opacity 0.2s;
+            white-space: nowrap;
+        }
+
+        .btn-apply:hover { opacity: 0.85; }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            background: var(--whatsapp);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: opacity 0.2s;
+            white-space: nowrap;
+        }
+
+        .btn-whatsapp:hover { opacity: 0.85; }
+
+        .btn-whatsapp svg {
+            width: 16px;
+            height: 16px;
+            fill: #fff;
+        }
+
+        /* Country flag pills */
+        .country-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 2px 8px;
+            background: var(--bg-secondary);
+            border-radius: 6px;
+            font-size: 0.82rem;
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state h3 { font-size: 1.3rem; margin-bottom: 8px; color: var(--text-primary); }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        footer a { color: var(--accent-blue); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            header h1 { font-size: 1.4rem; }
+
+            .job-card {
+                grid-template-columns: 1fr;
+            }
+
+            .job-actions {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .controls { flex-direction: column; }
+            .search-box { min-width: 100%; }
+            .filter-select { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>💼 CyberSec <span>Jobs</span> LATAM</h1>
+            <p>Directorio de empleos en ciberseguridad en Latinoam&eacute;rica</p>
+            <div class="badges">
+                <span class="badge badge--green" id="badge-total">📋 0 empleos</span>
+                <span class="badge badge--blue" id="badge-countries">🌎 0 pa&iacute;ses</span>
+                <span class="badge badge--orange" id="badge-remote">🏠 0 remotos</span>
+                <span class="badge badge--purple" id="badge-recent">🕐 0 recientes</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar por empleo, empresa, requisitos...">
+            </div>
+            <select class="filter-select" id="countryFilter">
+                <option value="">🌎 Todos los pa&iacute;ses</option>
+            </select>
+            <select class="filter-select" id="modalityFilter">
+                <option value="">📍 Todas las modalidades</option>
+                <option value="Remoto">🏠 Remoto</option>
+                <option value="Presencial">🏢 Presencial</option>
+                <option value="H&iacute;brido">🔄 H&iacute;brido</option>
+            </select>
+            <button class="sort-btn" id="sortDateBtn" title="Ordenar por fecha">📅 Fecha ↕</button>
+            <button class="sort-btn" id="sortCountryBtn" title="Ordenar por pa&iacute;s">🌎 Pa&iacute;s ↕</button>
+        </div>
+
+        <div class="stats" id="statsBar"></div>
+        <div class="jobs-grid" id="jobsGrid"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>CyberSec Jobs LATAM &mdash; Directorio de empleos en ciberseguridad</p>
+            <p style="margin-top:6px;">Datos actualizados manualmente. &iquest;Quieres agregar un empleo? Contribuye al proyecto.</p>
+        </div>
+    </footer>
+
+    <script>
+    // ============================================================
+    // DATA - Edita este arreglo para agregar/modificar empleos
+    // ============================================================
+    const JOBS_DATA = [
+        {
+            title: "Ingeniero/analista Senior de CiberseguridadFull time",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/empleos/cybersecurity/ingeniero-analista-senior-de-ciberseguridad-bc-tecnologia-santiago",
+            salary: ""
+        },
+        {
+            title: "Ingeniero de Seguridad de la Información y CiberseguridadPart time",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/jobs/cybersecurity/ingeniero-de-seguridad-de-la-informacion-y-ciberseguridad-fundacion-generacion-empresarial-santiago",
+            salary: ""
+        },
+        {
+            title: "Ingeniero/a de CiberseguridadFull time",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/jobs/cybersecurity/ingeniero-a-de-ciberseguridad-bice-vida-santiago",
+            salary: ""
+        },
+        {
+            title: "Analista de Seguridad de la InformaciónFull time",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/empleos/cybersecurity/analista-de-seguridad-de-la-informacion-bice-vida-santiago-0aac",
+            salary: ""
+        },
+        {
+            title: "Analista de Seguridad de la Información JuniorFull time",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/jobs/cybersecurity/analista-de-seguridad-de-la-informacion-junior-bc-tecnologia-santiago-bb38",
+            salary: ""
+        },
+        {
+            title: "Ingeniero Gestión CiberseguridadFull time",
+            company: "GetOnBrd",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "No especificado",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/jobs/cybersecurity/analista-de-seguridad-de-informacion-rancagua-agrosuper-rancagua",
+            salary: ""
+        },
+        {
+            title: "Auditor IT Senior / Cyber AuditFreelance",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/jobs/cybersecurity/auditor-it-senior-cyber-audit-bc-tecnologia-santiago",
+            salary: ""
+        },
+        {
+            title: "Analista de Seguridad de la Información JuniorFull time",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/empleos/cybersecurity/analista-de-seguridad-de-la-informacion-junior-bc-tecnologia-santiago",
+            salary: ""
+        },
+        {
+            title: "Especialista en CiberseguridadFull time",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "No especificado",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/jobs/cybersecurity/especialista-en-ciberseguridad-bc-tecnologia-santiago",
+            salary: ""
+        },
+        {
+            title: "Arquitecto de Seguridad – Proyecto (Híbrido)Freelance💤",
+            company: "GetOnBrd",
+            country: "Chile",
+            flag: "🇨🇱",
+            city: "Santiago",
+            modality: "Híbrido",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://www.getonbrd.com/empleos/cybersecurity/arquitecto-de-seguridad-proyecto-hibrido-bc-tecnologia-santiago",
+            salary: ""
+        },
+        {
+            title: "Senior Software Engineer Python Django PostgreSQL and Vue.js",
+            company: "Remoteok",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Python", "Go", "SQL"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-python-django-postgresql-and-vue-js-ghx-1130694",
+            salary: ""
+        },
+        {
+            title: "Security Engineer",
+            company: "Exodus Movement Inc.",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-security-engineer-exodus-movement-inc-1130686",
+            salary: ""
+        },
+        {
+            title: "Product Operations Lead",
+            company: "Alpaca",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-product-operations-lead-alpaca-1130684",
+            salary: ""
+        },
+        {
+            title: "Cloud Systems Engineer",
+            company: "Accenture Federal Services",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-cloud-systems-engineer-accenture-federal-services-1130678",
+            salary: ""
+        },
+        {
+            title: "Senior DevOps Engineer",
+            company: "ChowNow",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ansible", "Python"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-chownow-1130673",
+            salary: ""
+        },
+        {
+            title: "Senior Software Engineer React",
+            company: "Creative Chaos",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-react-creative-chaos-1130645",
+            salary: ""
+        },
+        {
+            title: "Communications Manager",
+            company: "CertiK",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-communications-manager-certik-1130643",
+            salary: ""
+        },
+        {
+            title: "DevOps Engineer",
+            company: "MEMX",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-devops-engineer-memx-1130637",
+            salary: ""
+        },
+        {
+            title: "Senior Open Source Intelligence Analyst",
+            company: "Concentric Advisors",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-open-source-intelligence-analyst-concentric-advisors-1130628",
+            salary: ""
+        },
+        {
+            title: "Cloud Architect",
+            company: "Accenture Federal Services",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-cloud-architect-accenture-federal-services-1130620",
+            salary: ""
+        },
+        {
+            title: "Channel Manager Team Lead United States",
+            company: "JumpCloud",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-channel-manager-team-lead-united-states-jumpcloud-1130600",
+            salary: ""
+        },
+        {
+            title: "Program Manager",
+            company: "Nava",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-program-manager-nava-1130574",
+            salary: ""
+        },
+        {
+            title: "Middle Project Manager Internal Systems and Processes",
+            company: "INFUSE",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-middle-project-manager-internal-systems-and-processes-infuse-1130567",
+            salary: ""
+        },
+        {
+            title: "Early Career Software Engineer Warfighter Systems",
+            company: "Anduril Industries",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Python"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-early-career-software-engineer-warfighter-systems-anduril-industries-1130565",
+            salary: ""
+        },
+        {
+            title: "Growth Engineer",
+            company: "BitMEX",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-growth-engineer-bitmex-1130564",
+            salary: ""
+        },
+        {
+            title: "Senior Security Engineer",
+            company: "Nansen.ai",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-security-engineer-nansen-ai-1130555",
+            salary: ""
+        },
+        {
+            title: "Senior User Experience Designer",
+            company: "Virtru",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["NDR"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-user-experience-designer-virtru-1130547",
+            salary: ""
+        },
+        {
+            title: "Senior Database Reliability Engineer",
+            company: "Remoteok",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["SQL"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-database-reliability-engineer-okta-inc-1130537",
+            salary: ""
+        },
+        {
+            title: "Senior Product Manager",
+            company: "INFUSE",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-product-manager-infuse-1130523",
+            salary: ""
+        },
+        {
+            title: "Senior Solutions Engineer North East",
+            company: "Remoteok",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-solutions-engineer-north-east-okta-inc-1130498",
+            salary: ""
+        },
+        {
+            title: "Regional Account Executive",
+            company: "AMAROK",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-regional-account-executive-amarok-1130480",
+            salary: ""
+        },
+        {
+            title: "Senior Security Engineer",
+            company: "You.com",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-security-engineer-you-com-1130439",
+            salary: ""
+        },
+        {
+            title: "DevOps Engineer",
+            company: "InfStones",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-devops-engineer-infstones-1130436",
+            salary: ""
+        },
+        {
+            title: "Mid Level DevOps Engineer CI CD Optimization",
+            company: "Ubiminds",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Docker"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-mid-level-devops-engineer-ci-cd-optimization-ubiminds-1130430",
+            salary: ""
+        },
+        {
+            title: "Director Asset Protection NAM Retail",
+            company: "Remoteok",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["CTI"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-director-asset-protection-nam-retail-arc39teryx-1130429",
+            salary: ""
+        },
+        {
+            title: "Security Specialist",
+            company: "Workwize",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-security-specialist-workwize-1130423",
+            salary: ""
+        },
+        {
+            title: "Product & Application Security Engineer",
+            company: "Veeam Software",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-product-application-security-engineer-veeam-software-1130399",
+            salary: ""
+        },
+        {
+            title: "Field Marketing Manager",
+            company: "Cogent Security",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-field-marketing-manager-cogent-security-1130388",
+            salary: ""
+        },
+        {
+            title: "Manager Paid Social and Digital Acquisition",
+            company: "Cogent Security",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["SOC"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-manager-paid-social-and-digital-acquisition-cogent-security-1130387",
+            salary: ""
+        },
+        {
+            title: "Director of Product Marketing",
+            company: "Cogent Security",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-director-of-product-marketing-cogent-security-1130384",
+            salary: ""
+        },
+        {
+            title: "Associate Director Adobe Target",
+            company: "Bounteous",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["SOC", "SSO"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-associate-director-adobe-target-bounteous-1130374",
+            salary: ""
+        },
+        {
+            title: "Marketing Campaign Operations Associate",
+            company: "Huntress",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["SOC", "SSO"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-marketing-campaign-operations-associate-huntress-1130350",
+            salary: ""
+        },
+        {
+            title: "Employee Relations &amp; Compliance Specialist",
+            company: "Placemakr",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Compliance"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-employee-relations-amp-compliance-specialist-placemakr-1130332",
+            salary: ""
+        },
+        {
+            title: "Global Graphic Designer",
+            company: "Goodway Group",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-global-graphic-designer-goodway-group-1130322",
+            salary: ""
+        },
+        {
+            title: "Manager Software Engineering",
+            company: "Chainguard",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-manager-software-engineering-chainguard-1130304",
+            salary: ""
+        },
+        {
+            title: "Cloud Engineer",
+            company: "Accenture Federal Services",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-cloud-engineer-accenture-federal-services-1130301",
+            salary: ""
+        },
+        {
+            title: "Information Security Operations Engineer",
+            company: "Bounteous",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-information-security-operations-engineer-bounteous-1130288",
+            salary: ""
+        },
+        {
+            title: "Security Access Management Lead",
+            company: "Bounteous",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-security-access-management-lead-bounteous-1130286",
+            salary: ""
+        },
+        {
+            title: "Integrated Marketing Manager",
+            company: "OpenAI",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-integrated-marketing-manager-openai-1130266",
+            salary: ""
+        },
+        {
+            title: "Senior Software Engineer I Puppet",
+            company: "Perforce",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Puppet"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-i-puppet-perforce-1130251",
+            salary: ""
+        },
+        {
+            title: "Founding Paralegal",
+            company: "Eudia",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-founding-paralegal-eudia-1130249",
+            salary: ""
+        },
+        {
+            title: "Security Engineer",
+            company: "PermitFlow",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-security-engineer-permitflow-1130241",
+            salary: ""
+        },
+        {
+            title: "SOC Analyst",
+            company: "Keyrock",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["SOC"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-soc-analyst-keyrock-1130231",
+            salary: ""
+        },
+        {
+            title: "Principal Security Engineer",
+            company: "Auros",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-principal-security-engineer-auros-1130222",
+            salary: ""
+        },
+        {
+            title: "Staff Product Security Engineer Customer Platform",
+            company: "Valon Tech",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-staff-product-security-engineer-customer-platform-valon-tech-1130220",
+            salary: ""
+        },
+        {
+            title: "Security Operations Engineer",
+            company: "Alpaca",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-security-operations-engineer-alpaca-1130218",
+            salary: ""
+        },
+        {
+            title: "Senior Software Engineer Trading Infrastructure",
+            company: "Gauntlet",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-trading-infrastructure-gauntlet-1130217",
+            salary: ""
+        },
+        {
+            title: "Senior DevSecOps Platform Security Engineer",
+            company: "DEFCON AI",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["DevSecOps"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-devsecops-platform-security-engineer-defcon-ai-1130208",
+            salary: ""
+        },
+        {
+            title: "Senior Cybersecurity Engineer",
+            company: "Accenture Federal Services",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-cybersecurity-engineer-accenture-federal-services-1130205",
+            salary: ""
+        },
+        {
+            title: "Senior Software Engineer Web",
+            company: "BitMEX",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-web-bitmex-1130197",
+            salary: ""
+        },
+        {
+            title: "Web Program Manager",
+            company: "Huntress",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-web-program-manager-huntress-1130188",
+            salary: ""
+        },
+        {
+            title: "Strategic Partner Manager GSI",
+            company: "Armis Security",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-strategic-partner-manager-gsi-armis-security-1130183",
+            salary: ""
+        },
+        {
+            title: "Staff Software Engineer Distributed Simulation",
+            company: "Anduril Industries",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-distributed-simulation-anduril-industries-1130167",
+            salary: ""
+        },
+        {
+            title: "DevSecOps Engineer DroneSense",
+            company: "Versaterm",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["DevSecOps"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-devsecops-engineer-dronesense-versaterm-1130147",
+            salary: ""
+        },
+        {
+            title: "Senior DevOps Engineer",
+            company: "Anduril Industries",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ansible"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-anduril-industries-1130139",
+            salary: ""
+        },
+        {
+            title: "Functional Payroll Consultant",
+            company: "Ubiminds",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["CTI"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-functional-payroll-consultant-ubiminds-1130130",
+            salary: ""
+        },
+        {
+            title: "Solution CAD Engineer III",
+            company: "Unlimited Technology",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-solution-cad-engineer-iii-unlimited-technology-1130121",
+            salary: ""
+        },
+        {
+            title: "Systems Engineer",
+            company: "GOAT Group",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-systems-engineer-goat-group-1130115",
+            salary: ""
+        },
+        {
+            title: "Senior Full Stack Developer",
+            company: "MicroVentures",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-full-stack-developer-microventures-1130107",
+            salary: ""
+        },
+        {
+            title: "Sales Director Enterprise Central",
+            company: "Voxel",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-sales-director-enterprise-central-voxel-1130097",
+            salary: ""
+        },
+        {
+            title: "Solutions Engineer",
+            company: "Lumana",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-solutions-engineer-lumana-1130096",
+            salary: ""
+        },
+        {
+            title: "Staff Software Engineer",
+            company: "Acquia",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-acquia-1130091",
+            salary: ""
+        },
+        {
+            title: "Security Engineer ISSO",
+            company: "Accenture Federal Services",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["SSO"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-security-engineer-isso-accenture-federal-services-1130089",
+            salary: ""
+        },
+        {
+            title: "Application Security Engineer",
+            company: "Anthropic",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-application-security-engineer-anthropic-1130088",
+            salary: ""
+        },
+        {
+            title: "GenAI Security Engineer",
+            company: "Remoteok",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-genai-security-engineer-point72-1130087",
+            salary: ""
+        },
+        {
+            title: "Staff Software Engineer Distributed Simulation",
+            company: "Anduril Industries",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-distributed-simulation-anduril-industries-1130076",
+            salary: ""
+        },
+        {
+            title: "Systems Engineer Enterprise Middleware",
+            company: "Spry Methods",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Docker"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-systems-engineer-enterprise-middleware-spry-methods-1130075",
+            salary: ""
+        },
+        {
+            title: "Senior Sales Engineer Data & AI Security",
+            company: "Veeam Software",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-sales-engineer-data-ai-security-veeam-software-1130074",
+            salary: ""
+        },
+        {
+            title: "Senior Enterprise Middleware Engineer",
+            company: "Spry Methods",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Docker"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-senior-enterprise-middleware-engineer-spry-methods-1130072",
+            salary: ""
+        },
+        {
+            title: "Technical Account Manager",
+            company: "FireMon",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-technical-account-manager-firemon-1130071",
+            salary: ""
+        },
+        {
+            title: "Director of Business Development",
+            company: "Rocket Communications",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-director-of-business-development-rocket-communications-1130065",
+            salary: ""
+        },
+        {
+            title: "Sales Solution Engineer",
+            company: "FlowFuse",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-sales-solution-engineer-flowfuse-1130049",
+            salary: ""
+        },
+        {
+            title: "Pre Sales Engineer",
+            company: "Ajax Systems",
+            country: "México",
+            flag: "🇲🇽",
+            city: "Guadalajara",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-pre-sales-engineer-ajax-systems-1130031",
+            salary: ""
+        },
+        {
+            title: "B2B Marketing Manager",
+            company: "Ajax Systems",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-b2b-marketing-manager-ajax-systems-1130028",
+            salary: ""
+        },
+        {
+            title: "Sr Security Engineer",
+            company: "True Zero Technologies",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-sr-security-engineer-true-zero-technologies-1130026",
+            salary: ""
+        },
+        {
+            title: "AI Automation Engineer",
+            company: "Lookout Inc",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-ai-automation-engineer-lookout-inc-1130016",
+            salary: ""
+        },
+        {
+            title: "Google Cloud Platform Engineer",
+            company: "LIGHTFEATHER IO LLC",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Go"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-google-cloud-platform-engineer-lightfeather-io-llc-1130011",
+            salary: ""
+        },
+        {
+            title: "Associate Security Researcher",
+            company: "Cobalt",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["SOC", "SSO"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-associate-security-researcher-cobalt-1130004",
+            salary: ""
+        },
+        {
+            title: "Software Engineer II",
+            company: "Noonlight",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-software-engineer-ii-noonlight-1130003",
+            salary: ""
+        },
+        {
+            title: "Customer Success Manager Public Sector",
+            company: "Anthropic",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-customer-success-manager-public-sector-anthropic-1129972",
+            salary: ""
+        },
+        {
+            title: "Software QA Engineer",
+            company: "Anduril Industries",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-software-qa-engineer-anduril-industries-1129970",
+            salary: ""
+        },
+        {
+            title: "Data Center Firewall & Network Security Engineer",
+            company: "Cerebras Systems",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Firewall"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-data-center-firewall-network-security-engineer-cerebras-systems-1129967",
+            salary: ""
+        },
+        {
+            title: "Security Engineer",
+            company: "Gallup",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-security-engineer-gallup-1129961",
+            salary: ""
+        },
+        {
+            title: "Platform Engineer",
+            company: "Affinitiv",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-platform-engineer-affinitiv-1129954",
+            salary: ""
+        },
+        {
+            title: "GenAI Security Engineer",
+            company: "Remoteok",
+            country: "Colombia",
+            flag: "🇨🇴",
+            city: "Colombia",
+            modality: "Remoto",
+            requirements: ["Ciberseguridad"],
+            date: "2026-03-11",
+            url: "https://remoteOK.com/remote-jobs/remote-genai-security-engineer-point72-1129949",
+            salary: ""
+        }
+    ];
+
+    // ============================================================
+    // APP STATE
+    // ============================================================
+    let currentSort = { field: 'date', asc: false };
+    let filteredJobs = [...JOBS_DATA];
+
+    // ============================================================
+    // RENDER
+    // ============================================================
+    function getModalityTag(mod) {
+        const map = {
+            'Remoto': 'tag--remote',
+            'Presencial': 'tag--onsite',
+            'Híbrido': 'tag--hybrid'
+        };
+        return map[mod] || '';
+    }
+
+    function daysAgo(dateStr) {
+        const diff = Math.floor((new Date() - new Date(dateStr)) / 86400000);
+        if (diff === 0) return 'Hoy';
+        if (diff === 1) return 'Ayer';
+        return `Hace ${diff} días`;
+    }
+
+    function buildWhatsAppUrl(job) {
+        const text = `💼 *Empleo en Ciberseguridad*\n\n` +
+            `📌 *${job.title}*\n` +
+            `🏢 ${job.company}\n` +
+            `📍 ${job.flag} ${job.city}, ${job.country}\n` +
+            `💰 ${job.salary || 'No especificado'}\n` +
+            `📋 ${job.requirements.join(', ')}\n` +
+            `🔗 ${job.url}\n\n` +
+            `Visto en CyberSec Jobs LATAM`;
+        return `https://wa.me/?text=${encodeURIComponent(text)}`;
+    }
+
+    function renderJobs(jobs) {
+        const grid = document.getElementById('jobsGrid');
+
+        if (jobs.length === 0) {
+            grid.innerHTML = `
+                <div class="empty-state">
+                    <h3>No se encontraron empleos</h3>
+                    <p>Intenta cambiar los filtros o la b&uacute;squeda</p>
+                </div>`;
+            return;
+        }
+
+        grid.innerHTML = jobs.map(job => `
+            <div class="job-card">
+                <div class="job-info">
+                    <div class="job-title">
+                        <a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>
+                    </div>
+                    <div class="job-meta">
+                        <span>🏢 ${job.company}</span>
+                        <span class="country-pill">${job.flag} ${job.city}, ${job.country}</span>
+                        <span>📅 ${job.date} (${daysAgo(job.date)})</span>
+                        ${job.salary ? `<span>💰 ${job.salary}</span>` : ''}
+                    </div>
+                    <div class="job-tags">
+                        <span class="tag ${getModalityTag(job.modality)}">${job.modality}</span>
+                        ${job.requirements.map(r => `<span class="tag">${r}</span>`).join('')}
+                    </div>
+                </div>
+                <div class="job-actions">
+                    <a class="btn-apply" href="${job.url}" target="_blank" rel="noopener">
+                        Ver empleo →
+                    </a>
+                    <a class="btn-whatsapp" href="${buildWhatsAppUrl(job)}" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Compartir
+                    </a>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function updateBadges(jobs) {
+        const countries = new Set(jobs.map(j => j.country));
+        const remote = jobs.filter(j => j.modality === 'Remoto').length;
+        const recent = jobs.filter(j => {
+            const diff = (new Date() - new Date(j.date)) / 86400000;
+            return diff <= 7;
+        }).length;
+
+        document.getElementById('badge-total').textContent = `📋 ${JOBS_DATA.length} empleos`;
+        document.getElementById('badge-countries').textContent = `🌎 ${new Set(JOBS_DATA.map(j => j.country)).size} países`;
+        document.getElementById('badge-remote').textContent = `🏠 ${JOBS_DATA.filter(j => j.modality === 'Remoto').length} remotos`;
+        document.getElementById('badge-recent').textContent = `🕐 ${JOBS_DATA.filter(j => (new Date() - new Date(j.date)) / 86400000 <= 7).length} recientes`;
+
+        document.getElementById('statsBar').innerHTML =
+            `<span>Mostrando <strong>${jobs.length}</strong> de ${JOBS_DATA.length} empleos</span>` +
+            (jobs.length < JOBS_DATA.length ? `<span>Filtros activos</span>` : '');
+    }
+
+    // ============================================================
+    // FILTERS & SORT
+    // ============================================================
+    function applyFilters() {
+        const search = document.getElementById('searchInput').value.toLowerCase();
+        const country = document.getElementById('countryFilter').value;
+        const modality = document.getElementById('modalityFilter').value;
+
+        filteredJobs = JOBS_DATA.filter(job => {
+            const matchSearch = !search ||
+                job.title.toLowerCase().includes(search) ||
+                job.company.toLowerCase().includes(search) ||
+                job.country.toLowerCase().includes(search) ||
+                job.city.toLowerCase().includes(search) ||
+                job.requirements.some(r => r.toLowerCase().includes(search));
+
+            const matchCountry = !country || job.country === country;
+            const matchModality = !modality || job.modality === modality;
+
+            return matchSearch && matchCountry && matchModality;
+        });
+
+        applySort();
+        renderJobs(filteredJobs);
+        updateBadges(filteredJobs);
+    }
+
+    function applySort() {
+        filteredJobs.sort((a, b) => {
+            let cmp;
+            if (currentSort.field === 'date') {
+                cmp = new Date(a.date) - new Date(b.date);
+            } else {
+                cmp = a.country.localeCompare(b.country);
+            }
+            return currentSort.asc ? cmp : -cmp;
+        });
+    }
+
+    function toggleSort(field) {
+        if (currentSort.field === field) {
+            currentSort.asc = !currentSort.asc;
+        } else {
+            currentSort.field = field;
+            currentSort.asc = true;
+        }
+
+        document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById(field === 'date' ? 'sortDateBtn' : 'sortCountryBtn').classList.add('active');
+
+        applyFilters();
+    }
+
+    // ============================================================
+    // INIT
+    // ============================================================
+    function init() {
+        // Populate country filter
+        const countries = [...new Set(JOBS_DATA.map(j => j.country))].sort();
+        const countrySelect = document.getElementById('countryFilter');
+        const flags = {};
+        JOBS_DATA.forEach(j => flags[j.country] = j.flag);
+        countries.forEach(c => {
+            const opt = document.createElement('option');
+            opt.value = c;
+            opt.textContent = `${flags[c]} ${c}`;
+            countrySelect.appendChild(opt);
+        });
+
+        // Events
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+        document.getElementById('countryFilter').addEventListener('change', applyFilters);
+        document.getElementById('modalityFilter').addEventListener('change', applyFilters);
+        document.getElementById('sortDateBtn').addEventListener('click', () => toggleSort('date'));
+        document.getElementById('sortCountryBtn').addEventListener('click', () => toggleSort('country'));
+
+        // Initial render
+        applyFilters();
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

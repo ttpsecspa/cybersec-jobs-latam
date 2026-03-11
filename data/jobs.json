@@ -1,0 +1,1645 @@
+{
+  "metadata": {
+    "last_updated": "2026-03-11T17:55:35.849095+00:00",
+    "total_jobs": 95,
+    "sources": [
+      "getonbrd.com",
+      "remoteok.com"
+    ],
+    "countries": {
+      "Chile": 9,
+      "Colombia": 85,
+      "México": 1
+    },
+    "modalities": {
+      "No especificado": 9,
+      "Híbrido": 1,
+      "Remoto": 85
+    },
+    "batch_index": 4,
+    "total_queries": 503
+  },
+  "jobs": [
+    {
+      "id": "9ad449408d56",
+      "title": "Ingeniero/analista Senior de CiberseguridadFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/empleos/cybersecurity/ingeniero-analista-senior-de-ciberseguridad-bc-tecnologia-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.508225+00:00"
+    },
+    {
+      "id": "523186b4d0ac",
+      "title": "Ingeniero de Seguridad de la Información y CiberseguridadPart time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/ingeniero-de-seguridad-de-la-informacion-y-ciberseguridad-fundacion-generacion-empresarial-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.508379+00:00"
+    },
+    {
+      "id": "d432f2461d6d",
+      "title": "Ingeniero/a de CiberseguridadFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/ingeniero-a-de-ciberseguridad-bice-vida-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.508491+00:00"
+    },
+    {
+      "id": "f9c5e8d27bdf",
+      "title": "Analista de Seguridad de la InformaciónFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/empleos/cybersecurity/analista-de-seguridad-de-la-informacion-bice-vida-santiago-0aac",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.508622+00:00"
+    },
+    {
+      "id": "5198c0804e7a",
+      "title": "Analista de Seguridad de la Información JuniorFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/analista-de-seguridad-de-la-informacion-junior-bc-tecnologia-santiago-bb38",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.508744+00:00"
+    },
+    {
+      "id": "69d8dd1781f0",
+      "title": "Ingeniero Gestión CiberseguridadFull time",
+      "company": "GetOnBrd",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "No especificado",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/analista-de-seguridad-de-informacion-rancagua-agrosuper-rancagua",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.508851+00:00"
+    },
+    {
+      "id": "5308768182ee",
+      "title": "Auditor IT Senior / Cyber AuditFreelance",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/auditor-it-senior-cyber-audit-bc-tecnologia-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.508958+00:00"
+    },
+    {
+      "id": "5da967566119",
+      "title": "Analista de Seguridad de la Información JuniorFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/empleos/cybersecurity/analista-de-seguridad-de-la-informacion-junior-bc-tecnologia-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.509073+00:00"
+    },
+    {
+      "id": "76da4e3f6069",
+      "title": "Especialista en CiberseguridadFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/especialista-en-ciberseguridad-bc-tecnologia-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.509170+00:00"
+    },
+    {
+      "id": "4658d48d0ede",
+      "title": "Arquitecto de Seguridad – Proyecto (Híbrido)Freelance💤",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "Híbrido",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://www.getonbrd.com/empleos/cybersecurity/arquitecto-de-seguridad-proyecto-hibrido-bc-tecnologia-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-11T16:57:48.509539+00:00"
+    },
+    {
+      "id": "c392c413bdf0",
+      "title": "Senior Software Engineer Python Django PostgreSQL and Vue.js",
+      "company": "Remoteok",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Python",
+        "Go",
+        "SQL"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-python-django-postgresql-and-vue-js-ghx-1130694",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.509688+00:00"
+    },
+    {
+      "id": "b74b1459be84",
+      "title": "Security Engineer",
+      "company": "Exodus Movement Inc.",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-engineer-exodus-movement-inc-1130686",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.509788+00:00"
+    },
+    {
+      "id": "d85109aca9e0",
+      "title": "Product Operations Lead",
+      "company": "Alpaca",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-operations-lead-alpaca-1130684",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.509892+00:00"
+    },
+    {
+      "id": "f4496bdba028",
+      "title": "Cloud Systems Engineer",
+      "company": "Accenture Federal Services",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-cloud-systems-engineer-accenture-federal-services-1130678",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510000+00:00"
+    },
+    {
+      "id": "156f65369206",
+      "title": "Senior DevOps Engineer",
+      "company": "ChowNow",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ansible",
+        "Python"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-chownow-1130673",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510095+00:00"
+    },
+    {
+      "id": "edde19a72172",
+      "title": "Senior Software Engineer React",
+      "company": "Creative Chaos",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-react-creative-chaos-1130645",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510196+00:00"
+    },
+    {
+      "id": "516d8c9550b1",
+      "title": "Communications Manager",
+      "company": "CertiK",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-communications-manager-certik-1130643",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510295+00:00"
+    },
+    {
+      "id": "50e1c7eab034",
+      "title": "DevOps Engineer",
+      "company": "MEMX",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-devops-engineer-memx-1130637",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510397+00:00"
+    },
+    {
+      "id": "d2e4b3b957db",
+      "title": "Senior Open Source Intelligence Analyst",
+      "company": "Concentric Advisors",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-open-source-intelligence-analyst-concentric-advisors-1130628",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510529+00:00"
+    },
+    {
+      "id": "af9a55e090fd",
+      "title": "Cloud Architect",
+      "company": "Accenture Federal Services",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-cloud-architect-accenture-federal-services-1130620",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510634+00:00"
+    },
+    {
+      "id": "0349c85e82f2",
+      "title": "Channel Manager Team Lead United States",
+      "company": "JumpCloud",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-channel-manager-team-lead-united-states-jumpcloud-1130600",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510742+00:00"
+    },
+    {
+      "id": "3456c552f23c",
+      "title": "Program Manager",
+      "company": "Nava",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-program-manager-nava-1130574",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510832+00:00"
+    },
+    {
+      "id": "1d12d0520350",
+      "title": "Middle Project Manager Internal Systems and Processes",
+      "company": "INFUSE",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-middle-project-manager-internal-systems-and-processes-infuse-1130567",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.510941+00:00"
+    },
+    {
+      "id": "3ade6e6e3aee",
+      "title": "Early Career Software Engineer Warfighter Systems",
+      "company": "Anduril Industries",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Python"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-early-career-software-engineer-warfighter-systems-anduril-industries-1130565",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511052+00:00"
+    },
+    {
+      "id": "52270948bdba",
+      "title": "Growth Engineer",
+      "company": "BitMEX",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-growth-engineer-bitmex-1130564",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511150+00:00"
+    },
+    {
+      "id": "e9ab5e622622",
+      "title": "Senior Security Engineer",
+      "company": "Nansen.ai",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-security-engineer-nansen-ai-1130555",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511246+00:00"
+    },
+    {
+      "id": "194e7d63d6f8",
+      "title": "Senior User Experience Designer",
+      "company": "Virtru",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "NDR"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-user-experience-designer-virtru-1130547",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511343+00:00"
+    },
+    {
+      "id": "37c7b90e9132",
+      "title": "Senior Database Reliability Engineer",
+      "company": "Remoteok",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "SQL"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-database-reliability-engineer-okta-inc-1130537",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511458+00:00"
+    },
+    {
+      "id": "f8eb3deab6ce",
+      "title": "Senior Product Manager",
+      "company": "INFUSE",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-infuse-1130523",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511550+00:00"
+    },
+    {
+      "id": "dda6f4005271",
+      "title": "Senior Solutions Engineer North East",
+      "company": "Remoteok",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-solutions-engineer-north-east-okta-inc-1130498",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511653+00:00"
+    },
+    {
+      "id": "231d14d93ccd",
+      "title": "Regional Account Executive",
+      "company": "AMAROK",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-regional-account-executive-amarok-1130480",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511743+00:00"
+    },
+    {
+      "id": "50b907fd3fda",
+      "title": "Senior Security Engineer",
+      "company": "You.com",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-security-engineer-you-com-1130439",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511876+00:00"
+    },
+    {
+      "id": "46a3624ecc37",
+      "title": "DevOps Engineer",
+      "company": "InfStones",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-devops-engineer-infstones-1130436",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.511962+00:00"
+    },
+    {
+      "id": "d96b1b7889d6",
+      "title": "Mid Level DevOps Engineer CI CD Optimization",
+      "company": "Ubiminds",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Docker"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-mid-level-devops-engineer-ci-cd-optimization-ubiminds-1130430",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512064+00:00"
+    },
+    {
+      "id": "e1c551b84867",
+      "title": "Director Asset Protection NAM Retail",
+      "company": "Remoteok",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "CTI"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-director-asset-protection-nam-retail-arc39teryx-1130429",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512182+00:00"
+    },
+    {
+      "id": "74c43014fb79",
+      "title": "Security Specialist",
+      "company": "Workwize",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-specialist-workwize-1130423",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512264+00:00"
+    },
+    {
+      "id": "9339da623fdb",
+      "title": "Product & Application Security Engineer",
+      "company": "Veeam Software",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-application-security-engineer-veeam-software-1130399",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512393+00:00"
+    },
+    {
+      "id": "ef4667c150d4",
+      "title": "Field Marketing Manager",
+      "company": "Cogent Security",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-field-marketing-manager-cogent-security-1130388",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512491+00:00"
+    },
+    {
+      "id": "bf1e650de6b8",
+      "title": "Manager Paid Social and Digital Acquisition",
+      "company": "Cogent Security",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "SOC"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-manager-paid-social-and-digital-acquisition-cogent-security-1130387",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512598+00:00"
+    },
+    {
+      "id": "66b922e797f6",
+      "title": "Director of Product Marketing",
+      "company": "Cogent Security",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-director-of-product-marketing-cogent-security-1130384",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512700+00:00"
+    },
+    {
+      "id": "efd58699936f",
+      "title": "Associate Director Adobe Target",
+      "company": "Bounteous",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "SOC",
+        "SSO"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-associate-director-adobe-target-bounteous-1130374",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512804+00:00"
+    },
+    {
+      "id": "09957ee46d9e",
+      "title": "Marketing Campaign Operations Associate",
+      "company": "Huntress",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "SOC",
+        "SSO"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-marketing-campaign-operations-associate-huntress-1130350",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.512926+00:00"
+    },
+    {
+      "id": "b2413f705f0a",
+      "title": "Employee Relations &amp; Compliance Specialist",
+      "company": "Placemakr",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Compliance"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-employee-relations-amp-compliance-specialist-placemakr-1130332",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513045+00:00"
+    },
+    {
+      "id": "b6e9fa1d8fc6",
+      "title": "Global Graphic Designer",
+      "company": "Goodway Group",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-global-graphic-designer-goodway-group-1130322",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513150+00:00"
+    },
+    {
+      "id": "f5c76dbe3a9f",
+      "title": "Manager Software Engineering",
+      "company": "Chainguard",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-manager-software-engineering-chainguard-1130304",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513249+00:00"
+    },
+    {
+      "id": "351d6c51d2a0",
+      "title": "Cloud Engineer",
+      "company": "Accenture Federal Services",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-cloud-engineer-accenture-federal-services-1130301",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513352+00:00"
+    },
+    {
+      "id": "3a2d76f02bc9",
+      "title": "Information Security Operations Engineer",
+      "company": "Bounteous",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-information-security-operations-engineer-bounteous-1130288",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513463+00:00"
+    },
+    {
+      "id": "7905b034159f",
+      "title": "Security Access Management Lead",
+      "company": "Bounteous",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-access-management-lead-bounteous-1130286",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513569+00:00"
+    },
+    {
+      "id": "6d4ba0c58965",
+      "title": "Integrated Marketing Manager",
+      "company": "OpenAI",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-integrated-marketing-manager-openai-1130266",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513666+00:00"
+    },
+    {
+      "id": "e9f0555d36dd",
+      "title": "Senior Software Engineer I Puppet",
+      "company": "Perforce",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Puppet"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-i-puppet-perforce-1130251",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513765+00:00"
+    },
+    {
+      "id": "dc748543dc57",
+      "title": "Founding Paralegal",
+      "company": "Eudia",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-founding-paralegal-eudia-1130249",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513857+00:00"
+    },
+    {
+      "id": "166dd983432c",
+      "title": "Security Engineer",
+      "company": "PermitFlow",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-engineer-permitflow-1130241",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.513957+00:00"
+    },
+    {
+      "id": "b9a2b8f54310",
+      "title": "SOC Analyst",
+      "company": "Keyrock",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "SOC"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-soc-analyst-keyrock-1130231",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514039+00:00"
+    },
+    {
+      "id": "1e86ab4b5fc1",
+      "title": "Principal Security Engineer",
+      "company": "Auros",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-security-engineer-auros-1130222",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514134+00:00"
+    },
+    {
+      "id": "181578c9c400",
+      "title": "Staff Product Security Engineer Customer Platform",
+      "company": "Valon Tech",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-product-security-engineer-customer-platform-valon-tech-1130220",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514242+00:00"
+    },
+    {
+      "id": "01826e288605",
+      "title": "Security Operations Engineer",
+      "company": "Alpaca",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-operations-engineer-alpaca-1130218",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514342+00:00"
+    },
+    {
+      "id": "e6c247f1b882",
+      "title": "Senior Software Engineer Trading Infrastructure",
+      "company": "Gauntlet",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-trading-infrastructure-gauntlet-1130217",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514458+00:00"
+    },
+    {
+      "id": "b16c97b5f360",
+      "title": "Senior DevSecOps Platform Security Engineer",
+      "company": "DEFCON AI",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "DevSecOps"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-devsecops-platform-security-engineer-defcon-ai-1130208",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514564+00:00"
+    },
+    {
+      "id": "d2dd2b5b4b07",
+      "title": "Senior Cybersecurity Engineer",
+      "company": "Accenture Federal Services",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-cybersecurity-engineer-accenture-federal-services-1130205",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514677+00:00"
+    },
+    {
+      "id": "1571659a801a",
+      "title": "Senior Software Engineer Web",
+      "company": "BitMEX",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-web-bitmex-1130197",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514773+00:00"
+    },
+    {
+      "id": "d6b5763b2186",
+      "title": "Web Program Manager",
+      "company": "Huntress",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-web-program-manager-huntress-1130188",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514870+00:00"
+    },
+    {
+      "id": "dc4b82a4001b",
+      "title": "Strategic Partner Manager GSI",
+      "company": "Armis Security",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-strategic-partner-manager-gsi-armis-security-1130183",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.514973+00:00"
+    },
+    {
+      "id": "223101c5b60f",
+      "title": "Staff Software Engineer Distributed Simulation",
+      "company": "Anduril Industries",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-distributed-simulation-anduril-industries-1130167",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515105+00:00"
+    },
+    {
+      "id": "71a4db7f22c1",
+      "title": "DevSecOps Engineer DroneSense",
+      "company": "Versaterm",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "DevSecOps"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-devsecops-engineer-dronesense-versaterm-1130147",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515214+00:00"
+    },
+    {
+      "id": "6513effb6d0e",
+      "title": "Senior DevOps Engineer",
+      "company": "Anduril Industries",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ansible"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-anduril-industries-1130139",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515313+00:00"
+    },
+    {
+      "id": "dbf4eb806ce0",
+      "title": "Functional Payroll Consultant",
+      "company": "Ubiminds",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "CTI"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-functional-payroll-consultant-ubiminds-1130130",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515415+00:00"
+    },
+    {
+      "id": "671820e59154",
+      "title": "Solution CAD Engineer III",
+      "company": "Unlimited Technology",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-solution-cad-engineer-iii-unlimited-technology-1130121",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515519+00:00"
+    },
+    {
+      "id": "fed9522bb0c4",
+      "title": "Systems Engineer",
+      "company": "GOAT Group",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-systems-engineer-goat-group-1130115",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515626+00:00"
+    },
+    {
+      "id": "38ba79c3531f",
+      "title": "Senior Full Stack Developer",
+      "company": "MicroVentures",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-full-stack-developer-microventures-1130107",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515727+00:00"
+    },
+    {
+      "id": "b7967e659826",
+      "title": "Sales Director Enterprise Central",
+      "company": "Voxel",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-sales-director-enterprise-central-voxel-1130097",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515829+00:00"
+    },
+    {
+      "id": "f145b9e73966",
+      "title": "Solutions Engineer",
+      "company": "Lumana",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-solutions-engineer-lumana-1130096",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.515918+00:00"
+    },
+    {
+      "id": "cc29d94905c4",
+      "title": "Staff Software Engineer",
+      "company": "Acquia",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-acquia-1130091",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516008+00:00"
+    },
+    {
+      "id": "bb21e71d84d6",
+      "title": "Security Engineer ISSO",
+      "company": "Accenture Federal Services",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "SSO"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-engineer-isso-accenture-federal-services-1130089",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516111+00:00"
+    },
+    {
+      "id": "cdde66afecb2",
+      "title": "Application Security Engineer",
+      "company": "Anthropic",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-application-security-engineer-anthropic-1130088",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516213+00:00"
+    },
+    {
+      "id": "53e5959caf21",
+      "title": "GenAI Security Engineer",
+      "company": "Remoteok",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-genai-security-engineer-point72-1130087",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516318+00:00"
+    },
+    {
+      "id": "6d1b0006ccd2",
+      "title": "Staff Software Engineer Distributed Simulation",
+      "company": "Anduril Industries",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-distributed-simulation-anduril-industries-1130076",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516425+00:00"
+    },
+    {
+      "id": "7602174b6d1b",
+      "title": "Systems Engineer Enterprise Middleware",
+      "company": "Spry Methods",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Docker"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-systems-engineer-enterprise-middleware-spry-methods-1130075",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516533+00:00"
+    },
+    {
+      "id": "e92906df03d9",
+      "title": "Senior Sales Engineer Data & AI Security",
+      "company": "Veeam Software",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-sales-engineer-data-ai-security-veeam-software-1130074",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516642+00:00"
+    },
+    {
+      "id": "4747be8d7f72",
+      "title": "Senior Enterprise Middleware Engineer",
+      "company": "Spry Methods",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Docker"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-enterprise-middleware-engineer-spry-methods-1130072",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516751+00:00"
+    },
+    {
+      "id": "48596fdb2446",
+      "title": "Technical Account Manager",
+      "company": "FireMon",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-technical-account-manager-firemon-1130071",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516846+00:00"
+    },
+    {
+      "id": "496a4e4cf84d",
+      "title": "Director of Business Development",
+      "company": "Rocket Communications",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-director-of-business-development-rocket-communications-1130065",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.516955+00:00"
+    },
+    {
+      "id": "13010a5d166f",
+      "title": "Sales Solution Engineer",
+      "company": "FlowFuse",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-sales-solution-engineer-flowfuse-1130049",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517049+00:00"
+    },
+    {
+      "id": "547438c85e18",
+      "title": "Pre Sales Engineer",
+      "company": "Ajax Systems",
+      "country": "México",
+      "flag": "🇲🇽",
+      "city": "Guadalajara",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-pre-sales-engineer-ajax-systems-1130031",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517153+00:00"
+    },
+    {
+      "id": "b9550632947a",
+      "title": "B2B Marketing Manager",
+      "company": "Ajax Systems",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-b2b-marketing-manager-ajax-systems-1130028",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517248+00:00"
+    },
+    {
+      "id": "913bcf29961c",
+      "title": "Sr Security Engineer",
+      "company": "True Zero Technologies",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-sr-security-engineer-true-zero-technologies-1130026",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517350+00:00"
+    },
+    {
+      "id": "6ff4ff027dbd",
+      "title": "AI Automation Engineer",
+      "company": "Lookout Inc",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-automation-engineer-lookout-inc-1130016",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517451+00:00"
+    },
+    {
+      "id": "5fee3ef7a76c",
+      "title": "Google Cloud Platform Engineer",
+      "company": "LIGHTFEATHER IO LLC",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-google-cloud-platform-engineer-lightfeather-io-llc-1130011",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517555+00:00"
+    },
+    {
+      "id": "088a95332206",
+      "title": "Associate Security Researcher",
+      "company": "Cobalt",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "SOC",
+        "SSO"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-associate-security-researcher-cobalt-1130004",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517657+00:00"
+    },
+    {
+      "id": "13afefccc227",
+      "title": "Software Engineer II",
+      "company": "Noonlight",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ii-noonlight-1130003",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517752+00:00"
+    },
+    {
+      "id": "49f0eb30ad98",
+      "title": "Customer Success Manager Public Sector",
+      "company": "Anthropic",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-public-sector-anthropic-1129972",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517867+00:00"
+    },
+    {
+      "id": "2ddbc3816aca",
+      "title": "Software QA Engineer",
+      "company": "Anduril Industries",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-qa-engineer-anduril-industries-1129970",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.517968+00:00"
+    },
+    {
+      "id": "7fd80bcc6b85",
+      "title": "Data Center Firewall & Network Security Engineer",
+      "company": "Cerebras Systems",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Firewall"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-data-center-firewall-network-security-engineer-cerebras-systems-1129967",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.518079+00:00"
+    },
+    {
+      "id": "d512ae3d331c",
+      "title": "Security Engineer",
+      "company": "Gallup",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-security-engineer-gallup-1129961",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.518169+00:00"
+    },
+    {
+      "id": "d20322ca042f",
+      "title": "Platform Engineer",
+      "company": "Affinitiv",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-platform-engineer-affinitiv-1129954",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.518262+00:00"
+    },
+    {
+      "id": "99307307e2ed",
+      "title": "GenAI Security Engineer",
+      "company": "Remoteok",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-11",
+      "url": "https://remoteOK.com/remote-jobs/remote-genai-security-engineer-point72-1129949",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-11T16:57:48.518367+00:00"
+    }
+  ]
+}
