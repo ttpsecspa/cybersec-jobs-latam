@@ -1,25 +1,42 @@
 {
   "metadata": {
-    "last_updated": "2026-03-11T17:55:35.849095+00:00",
-    "total_jobs": 95,
+    "last_updated": "2026-03-12T02:16:39.107538+00:00",
+    "total_jobs": 96,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Chile": 9,
+      "Chile": 10,
       "Colombia": 85,
       "México": 1
     },
     "modalities": {
-      "No especificado": 9,
+      "No especificado": 10,
       "Híbrido": 1,
       "Remoto": 85
     },
-    "batch_index": 4,
+    "batch_index": 0,
     "total_queries": 503
   },
   "jobs": [
+    {
+      "id": "cf73427492f0",
+      "title": "Analista de Seguridad de la InformaciónFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-12",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/analista-de-seguridad-de-la-informacion-bice-vida-santiago-0aac",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-12T01:18:36.605591+00:00"
+    },
     {
       "id": "9ad449408d56",
       "title": "Ingeniero/analista Senior de CiberseguridadFull time",
