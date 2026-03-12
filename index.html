@@ -383,9 +383,9 @@
 
     <script>
     // ============================================================
-    // DATA - Edita este arreglo para agregar/modificar empleos
+    // DATA - Se carga desde data/jobs.json
     // ============================================================
-    const JOBS_DATA = [
+    let JOBS_DATA = [
         {
             title: "Analista de Seguridad de la InformaciónFull time",
             company: "GetOnBrd",
@@ -1693,7 +1693,7 @@
     // ============================================================
     // INIT
     // ============================================================
-    function init() {
+    function initUI() {
         // Populate country filter
         const countries = [...new Set(JOBS_DATA.map(j => j.country))].sort();
         const countrySelect = document.getElementById('countryFilter');
@@ -1715,6 +1715,21 @@
 
         // Initial render
         applyFilters();
+    }
+
+    async function init() {
+        try {
+            const resp = await fetch('data/jobs.json');
+            if (resp.ok) {
+                const data = await resp.json();
+                if (data.jobs && data.jobs.length > 0) {
+                    JOBS_DATA = data.jobs;
+                }
+            }
+        } catch (e) {
+            console.warn('No se pudo cargar jobs.json, usando datos embebidos:', e);
+        }
+        initUI();
     }
 
     document.addEventListener('DOMContentLoaded', init);

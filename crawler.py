@@ -1125,7 +1125,6 @@ def run():
         "total_queries": len(queries),
     }
     save_jobs(data)
-    update_html(merged)
 
     # Resumen final
     log.info("\n" + "=" * 70)

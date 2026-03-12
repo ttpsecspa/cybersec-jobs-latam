@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json index.html
+          git add data/jobs.json
           git diff --staged --quiet || git commit -m "chore: update cybersecurity jobs $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
