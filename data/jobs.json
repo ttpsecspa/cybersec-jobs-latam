@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "last_updated": "2026-03-12T07:41:58.207448+00:00",
-    "total_jobs": 96,
+    "last_updated": "2026-03-12T13:38:51.073882+00:00",
+    "total_jobs": 97,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Chile": 10,
+      "Chile": 11,
       "Colombia": 85,
       "México": 1
     },
     "modalities": {
-      "No especificado": 10,
+      "No especificado": 11,
       "Híbrido": 1,
       "Remoto": 85
     },
-    "batch_index": 2,
+    "batch_index": 4,
     "total_queries": 503
   },
   "jobs": [
@@ -36,6 +36,23 @@
       "salary": "",
       "source": "getonbrd.com",
       "found_at": "2026-03-12T01:18:36.605591+00:00"
+    },
+    {
+      "id": "00712ce14548",
+      "title": "Analista de Seguridad de la Información JuniorFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-12",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/analista-de-seguridad-de-la-informacion-junior-bc-tecnologia-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-12T12:41:30.439193+00:00"
     },
     {
       "id": "9ad449408d56",
