@@ -1,25 +1,42 @@
 {
   "metadata": {
-    "last_updated": "2026-03-12T19:41:07.196649+00:00",
-    "total_jobs": 98,
+    "last_updated": "2026-03-13T02:21:50.066006+00:00",
+    "total_jobs": 99,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Chile": 12,
+      "Chile": 13,
       "Colombia": 85,
       "México": 1
     },
     "modalities": {
-      "No especificado": 12,
+      "No especificado": 13,
       "Híbrido": 1,
       "Remoto": 85
     },
-    "batch_index": 6,
+    "batch_index": 0,
     "total_queries": 503
   },
   "jobs": [
+    {
+      "id": "1575dfc936b0",
+      "title": "Arquitecto de CiberseguridadFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-13",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/arquitecto-de-ciberseguridad-factor-it-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-13T01:22:08.173849+00:00"
+    },
     {
       "id": "cf73427492f0",
       "title": "Analista de Seguridad de la InformaciónFull time",
