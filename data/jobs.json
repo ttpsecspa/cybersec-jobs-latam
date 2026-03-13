@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "last_updated": "2026-03-13T07:41:43.824972+00:00",
-    "total_jobs": 100,
+    "last_updated": "2026-03-13T13:39:52.354407+00:00",
+    "total_jobs": 101,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Chile": 14,
+      "Chile": 15,
       "Colombia": 85,
       "México": 1
     },
     "modalities": {
-      "No especificado": 14,
+      "No especificado": 15,
       "Híbrido": 1,
       "Remoto": 85
     },
-    "batch_index": 2,
+    "batch_index": 4,
     "total_queries": 503
   },
   "jobs": [
@@ -53,6 +53,24 @@
       "salary": "",
       "source": "getonbrd.com",
       "found_at": "2026-03-13T06:42:35.063477+00:00"
+    },
+    {
+      "id": "c7944914cda5",
+      "title": "Ingeniero de Seguridad TI – IAM y CumplimientoFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go",
+        "IAM"
+      ],
+      "date": "2026-03-13",
+      "url": "https://www.getonbrd.com/empleos/cybersecurity/ingeniero-de-seguridad-ti-iam-y-cumplimiento-coderslab-io-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-13T12:40:34.171186+00:00"
     },
     {
       "id": "cf73427492f0",
