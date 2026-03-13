@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "last_updated": "2026-03-13T13:39:52.354407+00:00",
-    "total_jobs": 101,
+    "last_updated": "2026-03-13T19:29:16.673250+00:00",
+    "total_jobs": 102,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Chile": 15,
+      "Chile": 16,
       "Colombia": 85,
       "México": 1
     },
     "modalities": {
-      "No especificado": 15,
+      "No especificado": 16,
       "Híbrido": 1,
       "Remoto": 85
     },
-    "batch_index": 4,
+    "batch_index": 6,
     "total_queries": 503
   },
   "jobs": [
@@ -71,6 +71,23 @@
       "salary": "",
       "source": "getonbrd.com",
       "found_at": "2026-03-13T12:40:34.171186+00:00"
+    },
+    {
+      "id": "a5eae2066b4c",
+      "title": "Ingeniero de Seguridad de la Información y CiberseguridadPart time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-13",
+      "url": "https://www.getonbrd.com/empleos/cybersecurity/ingeniero-de-seguridad-de-la-informacion-y-ciberseguridad-fundacion-generacion-empresarial-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-13T18:31:50.554861+00:00"
     },
     {
       "id": "cf73427492f0",
