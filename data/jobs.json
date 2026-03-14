@@ -1,25 +1,59 @@
 {
   "metadata": {
-    "last_updated": "2026-03-13T19:29:16.673250+00:00",
-    "total_jobs": 102,
+    "last_updated": "2026-03-14T02:19:32.698616+00:00",
+    "total_jobs": 104,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Chile": 16,
+      "Chile": 18,
       "Colombia": 85,
       "México": 1
     },
     "modalities": {
-      "No especificado": 16,
+      "No especificado": 18,
       "Híbrido": 1,
       "Remoto": 85
     },
-    "batch_index": 6,
+    "batch_index": 0,
     "total_queries": 503
   },
   "jobs": [
+    {
+      "id": "043a3c898884",
+      "title": "Líder Técnico/a de Ciberseguridad OperativaFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-14",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/lider-tecnico-a-de-ciberseguridad-operativa-bice-vida-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-14T01:20:20.961487+00:00"
+    },
+    {
+      "id": "a3627d186a86",
+      "title": "Ingeniero/a de CiberseguridadFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-14",
+      "url": "https://www.getonbrd.com/empleos/cybersecurity/ingeniero-a-de-ciberseguridad-bice-vida-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-14T01:20:20.962190+00:00"
+    },
     {
       "id": "1575dfc936b0",
       "title": "Arquitecto de CiberseguridadFull time",
