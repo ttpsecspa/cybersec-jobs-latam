@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-03-14T02:19:32.698616+00:00",
+    "last_updated": "2026-03-14T07:35:36.509411+00:00",
     "total_jobs": 104,
     "sources": [
       "getonbrd.com",
@@ -16,7 +16,7 @@
       "Híbrido": 1,
       "Remoto": 85
     },
-    "batch_index": 0,
+    "batch_index": 2,
     "total_queries": 503
   },
   "jobs": [
