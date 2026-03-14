@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "last_updated": "2026-03-14T07:35:36.509411+00:00",
-    "total_jobs": 104,
+    "last_updated": "2026-03-14T13:32:14.366981+00:00",
+    "total_jobs": 105,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
       "Chile": 18,
-      "Colombia": 85,
+      "Colombia": 86,
       "México": 1
     },
     "modalities": {
       "No especificado": 18,
-      "Híbrido": 1,
-      "Remoto": 85
+      "Remoto": 86,
+      "Híbrido": 1
     },
-    "batch_index": 2,
+    "batch_index": 4,
     "total_queries": 503
   },
   "jobs": [
@@ -53,6 +53,23 @@
       "salary": "",
       "source": "getonbrd.com",
       "found_at": "2026-03-14T01:20:20.962190+00:00"
+    },
+    {
+      "id": "0120feba4cfe",
+      "title": "Cloud Security Architect",
+      "company": "Altium",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Cloud Security"
+      ],
+      "date": "2026-03-14",
+      "url": "https://remoteOK.com/remote-jobs/remote-cloud-security-architect-altium-1130757",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-14T12:34:12.805553+00:00"
     },
     {
       "id": "1575dfc936b0",
