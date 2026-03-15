@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-03-15T02:45:14.760839+00:00",
+    "last_updated": "2026-03-15T07:45:38.280362+00:00",
     "total_jobs": 106,
     "sources": [
       "getonbrd.com",
@@ -16,7 +16,7 @@
       "No especificado": 18,
       "Híbrido": 1
     },
-    "batch_index": 0,
+    "batch_index": 2,
     "total_queries": 503
   },
   "jobs": [
