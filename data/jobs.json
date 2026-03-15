@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "last_updated": "2026-03-15T13:34:43.160779+00:00",
-    "total_jobs": 106,
+    "last_updated": "2026-03-15T19:26:40.992373+00:00",
+    "total_jobs": 108,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Colombia": 87,
-      "Chile": 18,
+      "Colombia": 88,
+      "Chile": 19,
       "México": 1
     },
     "modalities": {
-      "Remoto": 87,
-      "No especificado": 18,
+      "Remoto": 88,
+      "No especificado": 19,
       "Híbrido": 1
     },
-    "batch_index": 4,
+    "batch_index": 6,
     "total_queries": 503
   },
   "jobs": [
@@ -36,6 +36,40 @@
       "salary": "",
       "source": "remoteok.com",
       "found_at": "2026-03-15T01:45:45.306913+00:00"
+    },
+    {
+      "id": "68946f222e32",
+      "title": "Ingeniero de Seguridad en ProyectosFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-15",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/ingeniero-de-seguridad-en-proyectos-bc-tecnologia-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-15T18:29:22.347750+00:00"
+    },
+    {
+      "id": "3678403a67b5",
+      "title": "VP Corporate Marketing Brand & Communications",
+      "company": "Blackpoint Cyber",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-15",
+      "url": "https://remoteOK.com/remote-jobs/remote-vp-corporate-marketing-brand-communications-blackpoint-cyber-1130780",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-15T18:29:22.348119+00:00"
     },
     {
       "id": "043a3c898884",
