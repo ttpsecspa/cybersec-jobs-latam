@@ -1,25 +1,42 @@
 {
   "metadata": {
-    "last_updated": "2026-03-14T19:26:39.587144+00:00",
-    "total_jobs": 105,
+    "last_updated": "2026-03-15T02:45:14.760839+00:00",
+    "total_jobs": 106,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
+      "Colombia": 87,
       "Chile": 18,
-      "Colombia": 86,
       "México": 1
     },
     "modalities": {
+      "Remoto": 87,
       "No especificado": 18,
-      "Remoto": 86,
       "Híbrido": 1
     },
-    "batch_index": 6,
+    "batch_index": 0,
     "total_queries": 503
   },
   "jobs": [
+    {
+      "id": "bb01451df208",
+      "title": "Software Engineer New Grad Production Infrastructure",
+      "company": "Palantir Technologies",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "CTI"
+      ],
+      "date": "2026-03-15",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-new-grad-production-infrastructure-palantir-technologies-1130763",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-15T01:45:45.306913+00:00"
+    },
     {
       "id": "043a3c898884",
       "title": "Líder Técnico/a de Ciberseguridad OperativaFull time",
