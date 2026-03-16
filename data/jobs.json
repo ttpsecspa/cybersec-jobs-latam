@@ -1,25 +1,76 @@
 {
   "metadata": {
-    "last_updated": "2026-03-15T19:26:40.992373+00:00",
-    "total_jobs": 108,
+    "last_updated": "2026-03-16T02:47:22.009784+00:00",
+    "total_jobs": 111,
     "sources": [
       "getonbrd.com",
       "remoteok.com"
     ],
     "countries": {
-      "Colombia": 88,
-      "Chile": 19,
+      "Chile": 21,
+      "Colombia": 89,
       "México": 1
     },
     "modalities": {
-      "Remoto": 88,
-      "No especificado": 19,
+      "No especificado": 21,
+      "Remoto": 89,
       "Híbrido": 1
     },
-    "batch_index": 6,
+    "batch_index": 0,
     "total_queries": 503
   },
   "jobs": [
+    {
+      "id": "26bee3556dcf",
+      "title": "Ingeniero de Seguridad en la NubeFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-16",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/ingeniero-de-seguridad-en-la-nube-zerviz-technologies-santiago-8463",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-16T01:47:23.886655+00:00"
+    },
+    {
+      "id": "a54ebd836fa2",
+      "title": "Especialista en Seguridad OfensivaFull time",
+      "company": "GetOnBrd",
+      "country": "Chile",
+      "flag": "🇨🇱",
+      "city": "Santiago",
+      "modality": "No especificado",
+      "requirements": [
+        "Go"
+      ],
+      "date": "2026-03-16",
+      "url": "https://www.getonbrd.com/jobs/cybersecurity/especialista-en-seguridad-ofensiva-queplan-cl-santiago",
+      "salary": "",
+      "source": "getonbrd.com",
+      "found_at": "2026-03-16T01:47:23.886793+00:00"
+    },
+    {
+      "id": "a8d1b2846c2d",
+      "title": "Staff DevOps Engineer",
+      "company": "Remoteok",
+      "country": "Colombia",
+      "flag": "🇨🇴",
+      "city": "Colombia",
+      "modality": "Remoto",
+      "requirements": [
+        "Ciberseguridad"
+      ],
+      "date": "2026-03-16",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-devops-engineer-life360-1130783",
+      "salary": "",
+      "source": "remoteok.com",
+      "found_at": "2026-03-16T01:47:23.887375+00:00"
+    },
     {
       "id": "bb01451df208",
       "title": "Software Engineer New Grad Production Infrastructure",
